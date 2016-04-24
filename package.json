@@ -1,7 +1,7 @@
 {
   "name": "pick-props",
-  "version": "1.0.1",
-  "description": "Randomly sampling some properties from an object.",
+  "version": "1.0.2",
+  "description": "Given an object, pick some random properties and return them in an array.",
   "main": "index.js",
   "scripts": {
     "lint": "jshint index.js",
@@ -14,20 +14,18 @@
   "keywords": [
     "pick",
     "sampling",
-    "array",
-    "arr",
-    "key",
-    "keys",
-    "value",
-    "values",
     "property",
     "properties",
-    "array-like",
-    "shuffle",
+    "value",
+    "values",
+    "object",
     "random",
     "randomly",
     "randomize",
-    "rand"
+    "chance",
+    "test",
+    "dice",
+    "mock"
   ],
   "license": "MIT",
   "author": {
@@ -51,6 +49,6 @@
   },
   "dependencies": {
     "is-object": "^1.0.1",
-    "pick-keys": "^1.0.0"
+    "pick-keys": "^1.0.2"
   }
 }
