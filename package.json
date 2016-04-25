@@ -1,6 +1,6 @@
 {
   "name": "pick-props",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Given an object, pick some random properties and return them in an array.",
   "main": "index.js",
   "scripts": {
@@ -49,6 +49,6 @@
   },
   "dependencies": {
     "is-object": "^1.0.1",
-    "pick-keys": "^1.0.2"
+    "pick-keys": "^1.0.3"
   }
 }
